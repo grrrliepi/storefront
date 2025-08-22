@@ -83,7 +83,7 @@ if (!process.env.BASE_URL) {
 		reuseExistingServer: !process.env.CI,
 		timeout: 120_000, // 2 minutes for startup
 		stdout: 'pipe',
-		stderr: 'pipe'
+		stderr: 'pipe',
 		env: {
 			NODE_ENV: "development",
 			// Inherit other environment variables
